@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block title %}About{% endblock title %}
+
+
+ <div class="container">
+    {% block content %}
+
+
+
+<h1> About Me</h1>
+
+<p> My name is Gary. 
+    
+    <br/>
+    <br/>
+    
+    Just a dude learning to code. 
+    <br/>
+    <br/>
+    <img src="{% static 'img/goblinslayer.png' %}">
+    <br/>
+    <br/>
+    
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Distinctio enim totam amet quas eligendi iure qui recusandae esse 
+    quam illo omnis sequi labore accusamus, illum excepturi odio 
+    numquam sit impedit, nulla error. Porro suscipit laboriosam 
+    perspiciatis debitis quod magnam iste beatae quas. 
+    Asperiores facere aspernatur itaque ipsam labore vero. Labore! </p>
+
+
+    {% endblock content %}
+</div>
